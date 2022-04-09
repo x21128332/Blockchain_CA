@@ -1,11 +1,11 @@
 ## Blockchain_CA ##
 Aisling Kearney, 21128332
 
-## Deploy the contract to Ropsten ##
+## Create your token ##
 - Edit contract/KittyMeow_ECR20.sol token name and symbol
 - Deploy contract/KittyMeow_ECR20.sol contract to Ropsten using Remix - https://remix.ethereum.org/
 
-## Distribute tokens ##
+## Distribute your token ##
 - in VS Code terminal install all dependancies by running:  
 ```$npm install```
 - Add a .env file, populate it with your details:  
