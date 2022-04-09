@@ -8,13 +8,13 @@ Aisling Kearney, 21128332
 ## Distribute tokens ##
 - in VS Code terminal install all dependancies by running:  
 ```$npm install```
-- Add a .env file, populate it with you details:  
-INFURA_TOKEN=  
-CONTRACT_ADDRESS=  
-OWNER_ADDRESS=  
-SUPER_SECRET_PRIVATE_KEY=  
+- Add a .env file, populate it with your details:  
+&nbsp;&nbsp;&nbsp;&nbsp;INFURA_TOKEN=  
+&nbsp;&nbsp;&nbsp;&nbsp;CONTRACT_ADDRESS=  
+&nbsp;&nbsp;&nbsp;&nbsp;OWNER_ADDRESS=  
+&nbsp;&nbsp;&nbsp;&nbsp;SUPER_SECRET_PRIVATE_KEY=  
 
 - Edit accounts.txt to store the addresses you want to distribute the tokens to
 
-- run:  
+- Run:  
 ```$node distribute.js```
