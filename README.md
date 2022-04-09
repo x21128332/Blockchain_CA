@@ -1,5 +1,5 @@
 ## Blockchain_CA ##
-Aisling Kearney , 21128332
+Aisling Kearney, 21128332
 
 ## Deploy the contract to Ropsten ##
 - Edit contract/KittyMeow_ECR20.sol token name and symbol
