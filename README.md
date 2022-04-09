@@ -6,15 +6,15 @@ Aisling Kearney, 21128332
 - Deploy contract/KittyMeow_ECR20.sol contract to Ropsten using Remix - https://remix.ethereum.org/
 
 ## Distribute tokens ##
-- in VS Code terminal install all dependancies by running:
+- in VS Code terminal install all dependancies by running:  
 ```$npm install```
-- Add a .env file, populate it with you details:
-INFURA_TOKEN=
-CONTRACT_ADDRESS=
-OWNER_ADDRESS=
-SUPER_SECRET_PRIVATE_KEY=
+- Add a .env file, populate it with you details:  
+INFURA_TOKEN=  
+CONTRACT_ADDRESS=  
+OWNER_ADDRESS=  
+SUPER_SECRET_PRIVATE_KEY=  
 
 - Edit accounts.txt to store the addresses you want to distribute the tokens to
 
-- run:
+- run:  
 ```$node distribute.js```
