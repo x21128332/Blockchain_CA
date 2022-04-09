@@ -32,16 +32,16 @@ const doDistro = async() => {
     let ownerBalance = new BigNumber(remainingSupply);
 
     let fivepercentOfBalance = ownerBalance.div(20);
-    console.log(`five % of remaining supply is ${fivepercentOfBalance}`);
+    console.log(`5% of remaining supply is ${fivepercentOfBalance}`);
 
     let numberOfAddresses = distributionAddresses.length;
     let distributionAmount = fivepercentOfBalance.div(numberOfAddresses);
 
-    for (looper = 0; looper < numberOfAddresses; looper++) {
-        console.log(`about to distribute ${distributionAmount} ${symbol} to ${distributionAddresses[looper]}`)
+    for (i = 0; i < numberOfAddresses; i++) {
+        console.log(`about to distribute ${distributionAmount} ${symbol} to ${distributionAddresses[i]}`)
         
-        let returnValue = await contract.transferToken(ownerAddress, distributionAddresses[looper], distributionAmount);
+        let returnValue = await contract.transferToken(ownerAddress, distributionAddresses[i], distributionAmount);
     }
-}
+ }
 
 doDistro();
