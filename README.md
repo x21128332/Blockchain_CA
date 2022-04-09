@@ -1,4 +1,6 @@
-# Blockchain_CA
+## Blockchain_CA ##
 
 Deploy KittyMeow_ECR20.sol contract to Ropsten using Remix - https://remix.ethereum.org/
-``run npm install``
+
+install all dependancies by running:
+```$npm install```
