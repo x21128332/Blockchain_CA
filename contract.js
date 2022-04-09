@@ -105,16 +105,16 @@ const transferToken = async(fromAddress, toAddress, amount) => {
     console.log(`tx sent. tx hash is ${txResponse.transactionHash}`);   
 }
 
-// const getAllContractInfo = async() => {
-//     getName();
-//     getSymbol();
-//     getDecimals();
-//     getTotalSupply();
-//     getBalance(ownerAddress);
-//     transferToken(ownerAddress, '0x5ef5090b5701CE6E36939eddE4bD4D30966f2604', 23000);
-// }
+const getAllContractInfo = async() => {
+    getName();
+    getSymbol();
+    getDecimals();
+    getTotalSupply();
+    getBalance(ownerAddress);
+    //transferToken(ownerAddress, '0x5ef5090b5701CE6E36939eddE4bD4D30966f2604', 23000);
+}
 
-// getAllContractInfo()
+getAllContractInfo();
 
 module.exports = {getName, getSymbol, getBalance, getDecimals, getTotalSupply, transferToken}
 
