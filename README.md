@@ -31,7 +31,6 @@ Go to account details and export your private key this is needed to populate "SU
 - Run: ```$node distribute.js```  
 
 ## Using Docker ##
-
 - Install Docker: https://hub.docker.com/  
 check to see if you have Docker installed: ``` docker --version ```  
 - Build a docker image: ```$ docker build -t blockchain/km .```
@@ -39,10 +38,10 @@ check to see if you have Docker installed: ``` docker --version ```
 
 ## Additional Docker Commands ##
 
-- check what docker containers are running: ```$docker ps```
-- check what images I have built: ``` $docker image ls ```
-- remove all docker images/networks etc: ```$docker system prune -a -f```
-- kill a running docker container: ```$docker kill <container name>```
+- Check what docker containers are running: ```$docker ps```
+- Check what images I have built: ``` $docker image ls ```
+- Remove all docker images/networks etc: ```$docker system prune -a -f```
+- Kill a running docker container: ```$docker kill <container name>```
 
 ### Docker Compose ###
 
