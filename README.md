@@ -1,9 +1,18 @@
 ## Blockchain_CA ##
 Aisling Kearney, 21128332
+Ethereum Account: 0x5ef5090b5701CE6E36939eddE4bD4D30966f2604
+Contract Address: 0xDe6e90b83B56126ff4EA109467efa79E7f82d767
+==============================================================
+
+## Create your ethereum account ##
+Using Metamask create an account and set your secret phrase.
+Take note of your account number this is needed to populate "OWNER_ADDRESS" in your .env file below
+Go to account details and export your private key this is needed to populate "SUPER_SECRET_PRIVATE_KEY" in your .env file below
 
 ## Create your token ##
-- Edit contract/KittyMeow_ECR20.sol token name and symbol
-- Deploy contract/KittyMeow_ECR20.sol contract to Ropsten using Remix - https://remix.ethereum.org/
+- Edit contract/KittyMeow_ECR20.sol "token name" and "symbol"
+- Deploy contract/KittyMeow_ECR20.sol to Ropsten using Remix - https://remix.ethereum.org/
+- copy your contract address, you will need this in the .env file later
 - Verify your contract and save your ABI (you will need this later)
 
 ## Distribute your token ##
