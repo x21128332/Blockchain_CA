@@ -28,14 +28,41 @@ Go to account details and export your private key this is needed to populate "SU
 
 - In contract.js replace the ABI with the ABI from your verified contract in Robsten (you retrieved it in "Create your token" section)  
 
-- Run:  
-```$node distribute.js```  
+- Run: ```$node distribute.js```  
 
 ## Using Docker instead ##
 
-- Check to see if you have Docker installed  
+- Install Docker https://hub.docker.com/  
+Check to see if you have Docker installed  
 Run:  
 ``` docker --version ```  
-If not, installDdocker https://hub.docker.com/   
+ 
+check what docker containers are running
 
+```$docker ps```
+
+check what images I have built
+
+``` $docker image ls ```
+
+remove all docker images/networks etc.
+
+```docker system prune -a -f```
+
+build an image
+
+```$ docker build -t nci/erc20 .```
+
+run docker
+```$docker run --name distribute blockchain/km```
+
+to kill a running docker container
+
+```$docker kill <container name>```
+
+### Docker Compose ###
+
+to run a docker-compose instance:
+
+```$docker-compose up```
 
