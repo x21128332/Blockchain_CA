@@ -50,7 +50,5 @@ check to see if you have Docker installed: ``` docker --version ```
 
 ### Docker Compose ###
 
-to run a docker-compose instance:
-
-```$docker-compose up```
+Run: ```$docker-compose up```
 
