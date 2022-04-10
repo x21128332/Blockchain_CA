@@ -4,7 +4,7 @@ Ethereum Account: 0x5ef5090b5701CE6E36939eddE4bD4D30966f2604
 Contract Address: 0xDe6e90b83B56126ff4EA109467efa79E7f82d767  
 
 ## Create your ethereum account ##
-Using Metamask create an account and set your secret phrase.
+Using Metamask create an account and set your secret phrase. https://metamask.io/
 Take note of your account number this is needed to populate "OWNER_ADDRESS" in your .env file below
 Go to account details and export your private key this is needed to populate "SUPER_SECRET_PRIVATE_KEY" in your .env file below
 
