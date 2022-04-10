@@ -26,7 +26,16 @@ Go to account details and export your private key this is needed to populate "SU
 
 - Edit accounts.txt to store the addresses you want to distribute the tokens to
 
-- In contract.js replace the ABI with the ABI from your verified contract in Robsten (you retrieved it in "Create your token" section)
+- In contract.js replace the ABI with the ABI from your verified contract in Robsten (you retrieved it in "Create your token" section)  
 
 - Run:  
-```$node distribute.js```
+```$node distribute.js```  
+
+## Using Docker instead ##
+
+- Check to see if you have Docker installed  
+Run:  
+``` docker --version ```  
+If not, installDdocker https://hub.docker.com/   
+
+
