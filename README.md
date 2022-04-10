@@ -12,11 +12,11 @@ Go to account details and export your private key this is needed to populate "SU
 ## Create your token ##
 - Edit contract/KittyMeow_ECR20.sol "token name" and "symbol"
 - Deploy contract/KittyMeow_ECR20.sol to Ropsten using Remix - https://remix.ethereum.org/
-- copy your contract address, you will need this in the .env file later
+- Copy your contract address, you will need this in the .env file later
 - Verify your contract and save your ABI (you will need this later)
 
 ## Distribute your token ##
-- in VS Code terminal install all dependancies by running:  
+- In VS Code terminal install all dependancies by running:  
 ```$npm install```
 - Add a .env file, populate it with your details:  
 &nbsp;&nbsp;&nbsp;&nbsp;INFURA_TOKEN=  
@@ -32,20 +32,16 @@ Go to account details and export your private key this is needed to populate "SU
 
 ## Using Docker ##
 
-- install Docker: https://hub.docker.com/  
+- Install Docker: https://hub.docker.com/  
 check to see if you have Docker installed: ``` docker --version ```  
- 
-- build a docker image: ```$ docker build -t blockchain/km .```
-
-- run docker image: ```$docker run --name distribute blockchain/km```
+- Build a docker image: ```$ docker build -t blockchain/km .```
+- Run docker image: ```$docker run --name distribute blockchain/km```
 
 ## Additional Docker Commands ##
+
 - check what docker containers are running: ```$docker ps```
-
 - check what images I have built: ``` $docker image ls ```
-
 - remove all docker images/networks etc: ```$docker system prune -a -f```
-
 - kill a running docker container: ```$docker kill <container name>```
 
 ### Docker Compose ###
