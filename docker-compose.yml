@@ -1,5 +1,5 @@
 services:
-  nci_erc20:
+  blockchain_km:
     build:
       context: .
       dockerfile: Dockerfile

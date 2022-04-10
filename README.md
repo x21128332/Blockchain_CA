@@ -44,7 +44,7 @@ check to see if you have Docker installed: ``` docker --version ```
 
 - check what images I have built: ``` $docker image ls ```
 
-- remove all docker images/networks etc: ```docker system prune -a -f```
+- remove all docker images/networks etc: ```$docker system prune -a -f```
 
 - kill a running docker container: ```$docker kill <container name>```
 
