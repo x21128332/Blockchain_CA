@@ -31,7 +31,7 @@ Go to account details and export your private key this is needed to populate "SU
 
 ## Using Docker ##
 - Install Docker: https://hub.docker.com/  
-check to see if you have Docker installed: ``` docker --version ```  
+check to see if you have Docker installed: ```$docker --version```  
 - Build a docker image: ```$ docker build -t blockchain/km .```
 - Run docker image: ```$docker run --name distribute blockchain/km```
 
