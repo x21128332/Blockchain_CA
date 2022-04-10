@@ -1,7 +1,7 @@
 ## Blockchain_CA ##
-Aisling Kearney, 21128332
-Ethereum Account: 0x5ef5090b5701CE6E36939eddE4bD4D30966f2604
-Contract Address: 0xDe6e90b83B56126ff4EA109467efa79E7f82d767
+Aisling Kearney, 21128332  
+Ethereum Account: 0x5ef5090b5701CE6E36939eddE4bD4D30966f2604  
+Contract Address: 0xDe6e90b83B56126ff4EA109467efa79E7f82d767  
 ------------------------------------------------------------------
 
 ## Create your ethereum account ##
