@@ -52,3 +52,22 @@ check to see if you have Docker installed: ``` docker --version ```
 
 Run: ```$docker-compose up```
 
+### Docker Hub ###
+
+- Run ```$docker pull amjo92/kittymeow-blockchain```
+- Run ```$docker run --name distribute amjo92/kittymeow-blockchain```
+
+### Making Docker available on Docker Hub ###
+
+- Create a repository in your Docker hub account
+- Build your Docker image.  
+Run ```$docker build -t <username/repo-name> .```  
+Run ```$docker build -t amjo92/kittymeow-blockchain .``` 
+
+- Test your Docker image locally.  
+Run ```$docker run <username/repo-name> --name <container-name>```  
+Run ```$docker run amjo92/kittymeow-blockchain --name distribute```
+
+- Push your Docker image to Docker Hub.
+Run ```$docker push <username/repo-name>```  
+Run ```$docker push amjo92/kittymeow-blockchain```
