@@ -1,8 +1,7 @@
-## Blockchain_CA  
+# Blockchain_CA #
 Aisling Kearney, 21128332  
 Ethereum Account: 0x5ef5090b5701CE6E36939eddE4bD4D30966f2604  
 Contract Address: 0xDe6e90b83B56126ff4EA109467efa79E7f82d767  
-##
 
 ## Create your ethereum account ##
 Using Metamask create an account and set your secret phrase.
@@ -36,7 +35,7 @@ check to see if you have Docker installed: ``` docker --version ```
 - Build a docker image: ```$ docker build -t blockchain/km .```
 - Run docker image: ```$docker run --name distribute blockchain/km```
 
-## Additional Docker Commands ##
+### Additional Docker Commands ###
 
 - Check what docker containers are running: ```$docker ps```
 - Check what images I have built: ``` $docker image ls ```
